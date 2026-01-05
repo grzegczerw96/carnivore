@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Dieta Carnivore: Kompletny Przewodnik dla Początkujących | Zdrowie z Mięsa</title>
+    <meta name="description" content="Dowiedz się wszystkiego o diecie Carnivore. Poznaj listę produktów, unikaj błędów i zacznij swoją przygodę z dietą 100% mięsną. Sprawdź porady ekspertów!">
+    <meta name="keywords" content="dieta carnivore, dieta mięsna, co jeść na carnivore, błędy carnivore, ketoza, zdrowie, biohacking">
+    
+    <style>
+        /* Reset i Style Ogólne */
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            line-height: 1.8; 
+            color: #2d2d2d; 
+            background-color: #f4f4f4; 
+        }
+
+        /* Nagłówek i Nawigacja */
+        header { 
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), 
+                        url('https://images.unsplash.com/photo-1544025162-d76694265947?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+            background-size: cover;
+            background-position: center;
+            color: white; 
+            padding: 100px 20px; 
+            text-align: center; 
+        }
+        
+        nav { 
+            background: #1a1a1a; 
+            padding: 15px; 
+            position: sticky; 
+            top: 0; 
+            z-index: 1000;
+            text-align: center;
+        }
+        nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; text-transform: uppercase; font-size: 0.9rem; }
+        nav a:hover { color: #cc0000; }
+
+        .container { max-width: 1000px; margin: 40px auto; padding: 0 20px; }
+
+        /* Sekcje */
+        section { background: white; padding: 40px; margin-bottom: 30px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        h1 { font-size: 3rem; margin-bottom: 10px; }
+        h2 { color: #800000; font-size: 2rem; margin-bottom: 20px; border-bottom: 3px solid #800000; display: inline-block; }
+        h3 { margin: 20px 0 10px; color: #333; }
+
+        /* Lista Produktów */
+        .product-grid { 
+            display: grid; 
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1max)); 
+            gap: 20px; 
+            margin-top: 20px; 
+        }
+        .product-card { 
+            background: #fff5f5; 
+            padding: 20px; 
+            border-left: 5px solid #800000; 
+            border-radius: 4px;
+        }
+
+        /* Błędy - Lista */
+        .error-box { background: #fff1f1; padding: 20px; border-radius: 8px; margin-bottom: 15px; }
+        .error-title { font-weight: bold; color: #d00000; display: block; margin-bottom: 5px; }
+
+        /* Przyciski */
+        .cta-container { text-align: center; padding: 40px 0; }
+        .cta-button { 
+            background: #800000; 
+            color: white; 
+            padding: 18px 35px; 
+            text-decoration: none; 
+            border-radius: 50px; 
+            font-weight: bold; 
+            font-size: 1.2rem;
+            transition: 0.3s;
+            display: inline-block;
+        }
+        .cta-button:hover { background: #b30000; transform: scale(1.05); }
+
+        footer { background: #1a1a1a; color: white; text-align: center; padding: 40px 20px; margin-top: 50px; }
+
+        /* RWD */
+        @media (max-width: 600px) {
+            h1 { font-size: 2rem; }
+            section { padding: 20px; }
+        }
+    </style>
+</head>
+<body>
+
+<nav>
+    <a href="#o-diecie">O Diecie</a>
+    <a href="#produkty">Lista Zakupów</a>
+    <a href="#bledy">Częste Błędy</a>
+    <a href="#start">Jak Zacząć</a>
+</nav>
+
+<header>
+    <h1>Dieta Carnivore</h1>
+    <p>Odzyskaj zdrowie, siłę i jasność umysłu dzięki sile natury.</p>
+</header>
+
+<div class="container">
+
+    <section id="o-diecie">
+        <h2>Czym jest dieta Carnivore?</h2>
+        <p>Dieta Carnivore to model żywienia polegający na spożywaniu <strong>wyłącznie produktów pochodzenia zwierzęcego</strong>. To najbardziej restrykcyjna forma diety ketogenicznej i eliminacyjnej, która pomaga wyciszyć stany zapalne w organizmie, uregulować gospodarkę insulinową i poprawić trawienie poprzez eliminację lektyn, szczawianów i innych substancji antyodżywczych występujących w roślinach.</p>
+    </section>
+
+    <section id="produkty">
+        <h2>TOP 10 Produktów na Start</h2>
+        <p>Zapełnij swoją lodówkę tymi produktami, aby zapewnić sobie pełne spektrum witamin i minerałów:</p>
+        <div class="product-grid">
+            <div class="product-card"><strong>1. Antrykot Wołowy</strong> - Król diety, idealny stosunek tłuszczu do białka.</div>
+            <div class="product-card"><strong>2. Jajka Kurze</strong> - Bomba witaminowa, najlepiej z wolnego wybiegu.</div>
+            <div class="product-card"><strong>3. Masło</strong> - Doskonałe źródło czystej energii i smaku.</div>
+            <div class="product-card"><strong>4. Boczek Wędzony</strong> - Dostarcza niezbędnego tłuszczu nasyconego.</div>
+            <div class="product-card"><strong>5. Wątróbka Wołowa</strong> - Naturalna multiwitamina (jedz raz w tygodniu).</div>
+            <div class="product-card"><strong>6. Sól Morska</strong> - Niezbędna do utrzymania elektrolitów.</div>
+            <div class="product-card"><strong>7. Łosoś/Makrela</strong> - Źródło kwasów Omega-3.</div>
+            <div class="product-card"><strong>8. Łój Wołowy</strong> - Najlepszy tłuszcz do smażenia w wysokich temperaturach.</div>
+            <div class="product-card"><strong>9. Ser Twardy (np. Parmezan)</strong> - Jeśli tolerujesz nabiał, to świetna przekąska.</div>
+            <div class="product-card"><strong>10. Bulion na kościach</strong> - Wspomaga regenerację jelit i stawy.</div>
+        </div>
+    </section>
+
+    <section id="bledy">
+        <h2>5 Najczęstszych Błędów</h2>
+        <div class="error-box">
+            <span class="error-title">1. Zbyt mało kalorii i tłuszczu</span>
+            Nie bój się tłuszczu! To on nasyca i daje energię. Chude mięso to błąd.
+        </div>
+        <div class="error-box">
+            <span class="error-title">2. Zapominanie o soli</span>
+            Na diecie niskowęglowodanowej tracisz sód. Sól obficie każdy posiłek.
+        </div>
+        <div class="error-box">
+            <span class="error-title">3. Picie kawy z mlekiem roślinnym</span>
+            Wielu "oszukuje" roślinnymi dodatkami, co psuje efekt eliminacyjny.
+        </div>
+        <div class="error-box">
+            <span class="error-title">4. Brak cierpliwości podczas adaptacji</span>
+            Twoje ciało potrzebuje 30 dni, by przestawić się na spalanie tłuszczu.
+        </div>
+        <div class="error-box">
+            <span class="error-title">5. Podjadanie przetworzonych wędlin</span>
+            Wybieraj czyste mięso, a nie parówki z wypełniaczami i cukrem.
+        </div>
+    </section>
+
+    <div class="cta-container" id="start">
+        <h2>Gotowy na zmianę?</h2>
+        <p>Pobierz nasz bezpłatny e-book "Pierwsze 30 dni na Carnivore" i dołącz do tysięcy osób, które odmieniły swoje życie.</p>
+        <br>
+        <a href="https://www.tankersleydc.com/storage/app/media/robb-wolf-carnivore-diet.pdf" class="cta-button">Pobierz darmowy poradnik PDF</a>
+    </div>
+
+</div>
+
+<footer>
+    <p><strong>&copy; 2026 Przewodnik Carnivore - Zdrowie w Twoich Rękach</strong></p>
+    <p>Strona stworzona w celach edukacyjnych. Przed rozpoczęciem diety skonsultuj się z lekarzem.</p>
+</footer>
+
+</body>
+</html>
